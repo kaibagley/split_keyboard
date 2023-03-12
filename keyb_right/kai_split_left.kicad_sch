@@ -995,6 +995,7 @@
     )
   )
 
+
   (junction (at 60.96 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 02991bd3-3cc8-4b3e-a46f-2ddb99876fe3)
   )
@@ -1690,13 +1691,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 207.01 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06cb8a47-6e20-4573-a3d5-a68b9d609dd8)
-    (property "Reference" "MX4" (at 207.8932 54.61 0)
+    (property "Reference" "MX7" (at 207.8932 54.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 207.8932 57.15 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 191.135 61.595 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 191.135 61.595 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.135 61.595 0)
@@ -1705,9 +1706,9 @@
     (pin "1" (uuid 179ff420-2463-4646-b640-cbae3b549138))
     (pin "2" (uuid f3179856-c68d-4045-bb29-05b63b0c65d9))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX4") (unit 1)
+          (reference "MX7") (unit 1)
         )
       )
     )
@@ -1716,13 +1717,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 193.04 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 077eddb3-f840-4fab-b496-395666619877)
-    (property "Reference" "MX3" (at 193.9232 54.61 0)
+    (property "Reference" "MX6" (at 193.9232 54.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 193.9232 57.15 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 177.165 61.595 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 177.165 61.595 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 177.165 61.595 0)
@@ -1731,9 +1732,9 @@
     (pin "1" (uuid 0644771d-ce05-4060-b4c8-8942541bf250))
     (pin "2" (uuid 412c7c63-8021-4748-82cd-3ed36577b8b1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX3") (unit 1)
+          (reference "MX6") (unit 1)
         )
       )
     )
@@ -1748,7 +1749,7 @@
     (property "Value" "SOD-123" (at 234.95 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 233.68 67.31 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 233.68 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 67.31 90)
@@ -1763,7 +1764,7 @@
     (pin "1" (uuid ec6a0bf6-9189-427f-be89-a10fe9ab5cbe))
     (pin "2" (uuid c98fa4a8-71dd-4cf9-86a3-69a125a2860e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D8") (unit 1)
         )
@@ -1780,7 +1781,7 @@
     (property "Value" "0.1uF" (at 41.91 52.6986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.37 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 39.37 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 50.8 0)
@@ -1789,7 +1790,7 @@
     (pin "1" (uuid 5e21a429-cfa8-4a42-8b2a-903d0cc42b31))
     (pin "2" (uuid e3aecbcc-496d-47e8-a22a-5c8d92d3c101))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C3") (unit 1)
         )
@@ -1806,7 +1807,7 @@
     (property "Value" "SOD-123" (at 207.01 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 124.46 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 205.74 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 124.46 90)
@@ -1821,7 +1822,7 @@
     (pin "1" (uuid 4d5e0247-fdbb-4545-a44b-0891ecb7f35e))
     (pin "2" (uuid dd1d2a16-978e-4b92-bdf1-b4f6ee48079c))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D22") (unit 1)
         )
@@ -1838,7 +1839,7 @@
     (property "Value" "SOD-123" (at 207.01 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 67.31 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 205.74 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 67.31 90)
@@ -1853,7 +1854,7 @@
     (pin "1" (uuid f4a3ddc8-0456-4b31-906e-69318c507b51))
     (pin "2" (uuid 16a2089d-515d-4d32-a6dd-1f673e50f544))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D4") (unit 1)
         )
@@ -1870,7 +1871,7 @@
     (property "Value" "SOD-123" (at 207.01 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 86.36 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 205.74 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 86.36 90)
@@ -1885,7 +1886,7 @@
     (pin "1" (uuid aa1888a6-2146-4a6d-aeb5-87a5e3867cf2))
     (pin "2" (uuid bcd4bac9-4145-4f24-a4f7-a75707f29a1a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D12") (unit 1)
         )
@@ -1910,7 +1911,7 @@
     )
     (pin "1" (uuid 51266147-4e66-4faf-87c2-70830b3c5663))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR01") (unit 1)
         )
@@ -1927,7 +1928,7 @@
     (property "Value" "SOD-123" (at 220.98 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 124.46 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 219.71 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 124.46 90)
@@ -1942,7 +1943,7 @@
     (pin "1" (uuid 1ed1d59f-1729-4733-ba4f-3fe504ea13e0))
     (pin "2" (uuid 399bd98b-13de-443a-80c1-bafc4d1c5fa2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D23") (unit 1)
         )
@@ -1959,7 +1960,7 @@
     (property "Value" "MX-NoLED" (at 249.8032 57.15 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 233.045 61.595 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 233.045 61.595 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 233.045 61.595 0)
@@ -1968,7 +1969,7 @@
     (pin "1" (uuid b524b3f1-e8aa-4050-bb12-25f42caace51))
     (pin "2" (uuid ca5c768d-a52d-41eb-9847-43f4f01624b3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX10") (unit 1)
         )
@@ -1985,7 +1986,7 @@
     (property "Value" "MX-NoLED" (at 193.9232 76.2 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 177.165 80.645 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 177.165 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 177.165 80.645 0)
@@ -1994,7 +1995,7 @@
     (pin "1" (uuid e7b89c45-ebdb-4b12-8f5f-36a3f7f1bcd9))
     (pin "2" (uuid 6408984c-783c-4e41-b074-f1379367b756))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX11") (unit 1)
         )
@@ -2011,7 +2012,7 @@
     (property "Value" "MX-NoLED" (at 193.9232 95.25 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 177.165 99.695 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 177.165 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 177.165 99.695 0)
@@ -2020,7 +2021,7 @@
     (pin "1" (uuid eff5e20a-2b68-4a6c-b627-bb05c1493174))
     (pin "2" (uuid 4fab9bca-f594-421c-8827-48f39bb74536))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX16") (unit 1)
         )
@@ -2037,7 +2038,7 @@
     (property "Value" "USB_C_Receptacle_USB2.0" (at 29.21 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.02 129.54 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 33.02 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 33.02 129.54 0)
@@ -2061,7 +2062,7 @@
     (pin "B9" (uuid 1f1d714a-74f0-46ff-8d99-ce03f151de2d))
     (pin "S1" (uuid 376eb3b7-c3e7-4b73-b111-8d10a7baf9fb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "J1") (unit 1)
         )
@@ -2086,7 +2087,7 @@
     )
     (pin "1" (uuid 404b9382-ab20-4b1f-944f-5cd27ab6216b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR03") (unit 1)
         )
@@ -2111,7 +2112,7 @@
     )
     (pin "1" (uuid c84c314b-2c18-4ada-ac3d-c16955e5af57))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR07") (unit 1)
         )
@@ -2128,7 +2129,7 @@
     (property "Value" "16MHz" (at 66.04 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 59.69 72.39 0)
+    (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 59.69 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 72.39 0)
@@ -2139,7 +2140,7 @@
     (pin "3" (uuid b708f36e-800f-4fcc-bbf0-f7d934c80c65))
     (pin "4" (uuid 9d123214-69db-45bf-b99d-02f10f49aedb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "Y1") (unit 1)
         )
@@ -2156,7 +2157,7 @@
     (property "Value" "SOD-123" (at 193.04 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 48.26 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 191.77 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 48.26 90)
@@ -2171,7 +2172,7 @@
     (pin "1" (uuid d743ed3d-b6c0-4163-84a5-ee2bee384e11))
     (pin "2" (uuid c579fd09-e203-47b2-a97a-a35ecb3fdcc7))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D1") (unit 1)
         )
@@ -2188,7 +2189,7 @@
     (property "Value" "SOD-123" (at 234.95 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 233.68 124.46 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 233.68 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 124.46 90)
@@ -2203,7 +2204,7 @@
     (pin "1" (uuid fe93da4b-96eb-4ca0-8a05-cd5e66e3a734))
     (pin "2" (uuid fd6af83b-f93d-4c58-9e86-e8769c9635d2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D24") (unit 1)
         )
@@ -2220,7 +2221,7 @@
     (property "Value" "500mA" (at 53.34 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 58.42 113.03 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 58.42 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 53.34 114.3 0)
@@ -2229,7 +2230,7 @@
     (pin "1" (uuid d1f6feae-628c-435b-b23f-10e75592492c))
     (pin "2" (uuid e1c76ad3-84d2-4b13-8f5d-5fb9c8c12f56))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "F1") (unit 1)
         )
@@ -2246,7 +2247,7 @@
     (property "Value" "MX-NoLED" (at 207.8932 38.1 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 191.135 42.545 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 191.135 42.545 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.135 42.545 0)
@@ -2255,7 +2256,7 @@
     (pin "1" (uuid a2b7f890-86d2-43b0-9905-2c13b35ffa79))
     (pin "2" (uuid d87c4972-0074-48b2-beac-be8ad3250ec8))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX2") (unit 1)
         )
@@ -2272,7 +2273,7 @@
     (property "Value" "22pF" (at 55.88 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 50.8 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 50.8 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 69.85 0)
@@ -2281,7 +2282,7 @@
     (pin "1" (uuid c7b8f204-cde5-4291-a14a-e513e8a3c92d))
     (pin "2" (uuid f1c9a20d-94a8-4b42-9d79-b8630f5a4cff))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C7") (unit 1)
         )
@@ -2298,7 +2299,7 @@
     (property "Value" "SOD-123" (at 234.95 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 233.68 105.41 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 233.68 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 105.41 90)
@@ -2313,7 +2314,7 @@
     (pin "1" (uuid 03f43c1d-11f2-4e05-8534-1411856457a7))
     (pin "2" (uuid 16f77575-c60d-41cb-b1b2-4962ef963ad6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D19") (unit 1)
         )
@@ -2330,7 +2331,7 @@
     (property "Value" "SOD-123" (at 234.95 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 233.68 86.36 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 233.68 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 86.36 90)
@@ -2345,7 +2346,7 @@
     (pin "1" (uuid 71d3b33f-78af-4b57-9889-706221dbfafb))
     (pin "2" (uuid 144cd3fe-31e4-467a-bae3-9139ad09e9e5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D14") (unit 1)
         )
@@ -2362,7 +2363,7 @@
     (property "Value" "MX-NoLED" (at 249.8032 95.25 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 233.045 99.695 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 233.045 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 233.045 99.695 0)
@@ -2371,7 +2372,7 @@
     (pin "1" (uuid 8775b3f5-4ce3-439f-b4cd-23fa9850c95b))
     (pin "2" (uuid 9ef8d875-95c2-48ae-80e0-dd4909585a6f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX20") (unit 1)
         )
@@ -2388,7 +2389,7 @@
     (property "Value" "SOD-123" (at 193.04 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 105.41 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 191.77 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 105.41 90)
@@ -2403,7 +2404,7 @@
     (pin "1" (uuid 79eb98a4-f6be-432a-85e1-09a7ee737b0b))
     (pin "2" (uuid c568b503-44b7-47b8-9e65-7350f43e4f94))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D16") (unit 1)
         )
@@ -2420,7 +2421,7 @@
     (property "Value" "MX-NoLED" (at 235.8332 76.2 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 219.075 80.645 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 219.075 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 219.075 80.645 0)
@@ -2429,7 +2430,7 @@
     (pin "1" (uuid 441e25fe-7589-446f-8ca6-58bc9a0f14e8))
     (pin "2" (uuid c91f06cf-2725-487f-9583-9f2ef95826cf))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX14") (unit 1)
         )
@@ -2446,7 +2447,7 @@
     (property "Value" "SOD-123" (at 220.98 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 48.26 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 219.71 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 48.26 90)
@@ -2461,7 +2462,7 @@
     (pin "1" (uuid 96a63f9e-9569-46bf-85e7-55808dc0d894))
     (pin "2" (uuid 116b4d70-4919-4267-844d-52b3cd1ea3d4))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D5") (unit 1)
         )
@@ -2529,7 +2530,7 @@
     (pin "8" (uuid a14d9160-b597-4a46-9989-c0dcbdf016a2))
     (pin "9" (uuid 5403b4b3-fe57-4544-bf6e-ea7098a48193))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "U2") (unit 1)
         )
@@ -2546,7 +2547,7 @@
     (property "Value" "SOD-123" (at 220.98 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 67.31 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 219.71 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 67.31 90)
@@ -2561,7 +2562,7 @@
     (pin "1" (uuid f92d73b4-d6b2-4319-a457-04a56cabbe05))
     (pin "2" (uuid e48170ff-faac-49fe-a7d5-c295de0329e1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D6") (unit 1)
         )
@@ -2578,7 +2579,7 @@
     (property "Value" "5.1k" (at 49.53 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 53.34 121.92 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 121.92 0)
@@ -2587,7 +2588,7 @@
     (pin "1" (uuid 7baff35d-83f5-4c59-81af-59a93221d9d6))
     (pin "2" (uuid 3e6569ca-f313-4732-abb0-30fe4dc7424b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R6") (unit 1)
         )
@@ -2604,7 +2605,7 @@
     (property "Value" "10uF" (at 50.8 52.6986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 48.26 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 48.26 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 48.26 50.8 0)
@@ -2613,7 +2614,7 @@
     (pin "1" (uuid 6906f6ba-7dc4-4c64-8e1c-105d8c23e42e))
     (pin "2" (uuid 6bf056bb-1e7e-4a10-99d0-a9808909ff85))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C5") (unit 1)
         )
@@ -2630,7 +2631,7 @@
     (property "Value" "SOD-123" (at 220.98 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 105.41 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 219.71 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 105.41 90)
@@ -2645,7 +2646,7 @@
     (pin "1" (uuid cb0c16dc-148b-4c29-ac22-11f14d4da6e8))
     (pin "2" (uuid 45a333ab-2858-4772-9a90-6f1ebcc3a748))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D18") (unit 1)
         )
@@ -2662,7 +2663,7 @@
     (property "Value" "MX-NoLED" (at 235.8332 95.25 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 219.075 99.695 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 219.075 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 219.075 99.695 0)
@@ -2671,7 +2672,7 @@
     (pin "1" (uuid fe2fbee4-bbd2-4147-ba53-4e13d0d5a46f))
     (pin "2" (uuid 4aa79b88-a9bc-46d7-856d-e2e0e3abd7ab))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX19") (unit 1)
         )
@@ -2688,7 +2689,7 @@
     (property "Value" "MX-NoLED" (at 193.9232 38.1 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 177.165 42.545 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 177.165 42.545 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 177.165 42.545 0)
@@ -2697,7 +2698,7 @@
     (pin "1" (uuid 4e353732-3423-4006-bf3a-1688b8ebb075))
     (pin "2" (uuid 477b794a-af66-4ffa-a74f-5a48b98ad37a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX1") (unit 1)
         )
@@ -2722,7 +2723,7 @@
     )
     (pin "1" (uuid e741ff24-0960-4d4a-8bd9-fb8b60013faa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR09") (unit 1)
         )
@@ -2739,7 +2740,7 @@
     (property "Value" "MX-NoLED" (at 249.8032 114.3 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 233.045 118.745 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 233.045 118.745 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 233.045 118.745 0)
@@ -2748,7 +2749,7 @@
     (pin "1" (uuid ddcb64ee-f0b9-4151-a329-c3781533f164))
     (pin "2" (uuid 77906578-d8cb-49a6-a4d6-182eccc3c01c))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX25") (unit 1)
         )
@@ -2765,7 +2766,7 @@
     (property "Value" "SOD-123" (at 207.01 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 105.41 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 205.74 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 105.41 90)
@@ -2780,7 +2781,7 @@
     (pin "1" (uuid 16a245e6-04e5-49a7-813f-262415514e57))
     (pin "2" (uuid 454712e0-3cd7-4340-9f63-516328f745c3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D17") (unit 1)
         )
@@ -2797,7 +2798,7 @@
     (property "Value" "1uF" (at 73.66 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 72.39 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 72.39 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 100.33 0)
@@ -2806,7 +2807,7 @@
     (pin "1" (uuid d42ec200-b98e-49ab-babc-8744bde52db2))
     (pin "2" (uuid 751cab09-a506-4cea-86df-ffce37131095))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C1") (unit 1)
         )
@@ -2831,7 +2832,7 @@
     )
     (pin "1" (uuid e09ad91c-f4e0-4654-8637-5115f7945204))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR08") (unit 1)
         )
@@ -2848,7 +2849,7 @@
     (property "Value" "SOD-123" (at 248.92 109.22 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 247.65 105.41 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 247.65 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 105.41 90)
@@ -2863,7 +2864,7 @@
     (pin "1" (uuid 53cbdec2-ed3f-477a-9867-c13c354756f6))
     (pin "2" (uuid 1fc8c9b1-e09a-4bd9-bf44-b3fffafc82fa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D20") (unit 1)
         )
@@ -2880,7 +2881,7 @@
     (property "Value" "0.1uF" (at 33.02 52.7113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 30.48 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 30.48 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 50.8 0)
@@ -2889,7 +2890,7 @@
     (pin "1" (uuid 9042da7d-6b9f-4069-bd16-dd3523904d73))
     (pin "2" (uuid 7eb4fc4e-3bd4-431f-83c6-f9507e3c1a26))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C2") (unit 1)
         )
@@ -2906,7 +2907,7 @@
     (property "Value" "MX-NoLED" (at 193.9232 114.3 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 177.165 118.745 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 177.165 118.745 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 177.165 118.745 0)
@@ -2915,7 +2916,7 @@
     (pin "1" (uuid f3ba620c-72fe-4905-a99b-f1adbc80d3e5))
     (pin "2" (uuid 77e8eda7-7699-4616-a9fc-8a38b43a8b09))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX21") (unit 1)
         )
@@ -2940,7 +2941,7 @@
     )
     (pin "1" (uuid 5e301fce-040e-48b1-9c78-fc749a0e335a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR012") (unit 1)
         )
@@ -2951,13 +2952,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 248.92 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85b5fd18-d005-404e-8106-3c21262dde74)
-    (property "Reference" "MX9" (at 249.8032 35.56 0)
+    (property "Reference" "MX5" (at 249.8032 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 249.8032 38.1 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 233.045 42.545 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 233.045 42.545 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 233.045 42.545 0)
@@ -2966,9 +2967,9 @@
     (pin "1" (uuid ee394aae-0f3f-40d2-a7a3-a7e677ccbc81))
     (pin "2" (uuid dd36b94a-ed83-45e1-b351-918c8f8926ab))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX9") (unit 1)
+          (reference "MX5") (unit 1)
         )
       )
     )
@@ -2991,7 +2992,7 @@
     )
     (pin "1" (uuid 7a0e8327-f979-442e-bfa1-babf0a7d72b1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR013") (unit 1)
         )
@@ -3008,7 +3009,7 @@
     (property "Value" "5.1k" (at 57.15 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 53.34 119.38 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 119.38 0)
@@ -3017,7 +3018,7 @@
     (pin "1" (uuid 1d500d15-4cb2-481e-b50f-0df410adabf5))
     (pin "2" (uuid 75302c61-e2c1-4e24-8e57-789985257dd7))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R5") (unit 1)
         )
@@ -3034,7 +3035,7 @@
     (property "Value" "SOD-123" (at 193.04 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 86.36 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 191.77 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 86.36 90)
@@ -3049,7 +3050,7 @@
     (pin "1" (uuid 04eb15b2-1037-4388-8242-dc55cade54eb))
     (pin "2" (uuid e6a692ef-bd26-41fc-bc6f-8759e2388013))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D11") (unit 1)
         )
@@ -3066,7 +3067,7 @@
     (property "Value" "MX-NoLED" (at 207.8932 95.25 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 191.135 99.695 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 191.135 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.135 99.695 0)
@@ -3075,7 +3076,7 @@
     (pin "1" (uuid d3cd1f91-5cc2-4fd5-a626-72de3bab56cd))
     (pin "2" (uuid 607903c3-a48d-41c9-84e0-e3e47b160dc6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX17") (unit 1)
         )
@@ -3092,7 +3093,7 @@
     (property "Value" "MX-NoLED" (at 235.8332 114.3 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 219.075 118.745 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 219.075 118.745 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 219.075 118.745 0)
@@ -3101,7 +3102,7 @@
     (pin "1" (uuid 6df4a3ac-e9c0-4c94-96a2-7d43a6afdbe3))
     (pin "2" (uuid 9b3aa25a-3842-4665-8e2c-2caf556a8ea3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX24") (unit 1)
         )
@@ -3126,7 +3127,7 @@
     )
     (pin "1" (uuid 8f094a3b-2b45-40a5-9324-381ffc2b2727))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR014") (unit 1)
         )
@@ -3137,13 +3138,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 220.98 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 977da50d-634b-48cb-aab4-f73e906602b1)
-    (property "Reference" "MX5" (at 221.8632 35.56 0)
+    (property "Reference" "MX3" (at 221.8632 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 221.8632 38.1 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 205.105 42.545 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 205.105 42.545 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.105 42.545 0)
@@ -3152,9 +3153,9 @@
     (pin "1" (uuid e77a3531-75a3-44e8-b2de-ce55017aff59))
     (pin "2" (uuid 306a07b9-546a-4e12-a8b4-2244b357bf65))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX5") (unit 1)
+          (reference "MX3") (unit 1)
         )
       )
     )
@@ -3169,7 +3170,7 @@
     (property "Value" "5.1k" (at 58.42 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 53.34 129.54 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 129.54 0)
@@ -3178,7 +3179,7 @@
     (pin "1" (uuid f46db06e-9772-4494-9dd5-e211e230941f))
     (pin "2" (uuid a5c5d01b-eb06-4c0a-b167-8c2a76b25995))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R7") (unit 1)
         )
@@ -3195,7 +3196,7 @@
     (property "Value" "5.1k" (at 49.53 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 53.34 132.08 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 132.08 0)
@@ -3204,7 +3205,7 @@
     (pin "1" (uuid a8b4a6a2-7cd9-47a5-b8ad-6b7576bf0ed4))
     (pin "2" (uuid bdd7aaaf-8c83-4cec-bcd4-2934582a5fb0))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R8") (unit 1)
         )
@@ -3229,7 +3230,7 @@
     )
     (pin "1" (uuid 92edd2d6-5a3b-474f-bc3e-97ae39751f63))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR04") (unit 1)
         )
@@ -3254,7 +3255,7 @@
     )
     (pin "1" (uuid 5087c04d-3824-4901-a483-1f960f72f462))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR06") (unit 1)
         )
@@ -3279,7 +3280,7 @@
     )
     (pin "1" (uuid 53fefc25-542f-491e-ad59-3e04df512e01))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR02") (unit 1)
         )
@@ -3290,13 +3291,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 234.95 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b224dd16-0da9-4e45-a013-c3fadf0c26a6)
-    (property "Reference" "MX8" (at 235.8332 54.61 0)
+    (property "Reference" "MX9" (at 235.8332 54.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 235.8332 57.15 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 219.075 61.595 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 219.075 61.595 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 219.075 61.595 0)
@@ -3305,9 +3306,9 @@
     (pin "1" (uuid 13768d7a-d3f9-4f31-b23c-104c7f2dbf1b))
     (pin "2" (uuid 8d22963f-2ea8-4bb1-948e-2184208486c6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX8") (unit 1)
+          (reference "MX9") (unit 1)
         )
       )
     )
@@ -3330,7 +3331,7 @@
     )
     (pin "1" (uuid 51732db3-10c8-42f1-80d8-b34cc3af769b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR010") (unit 1)
         )
@@ -3347,7 +3348,7 @@
     (property "Value" "MX-NoLED" (at 221.8632 76.2 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 205.105 80.645 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 205.105 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.105 80.645 0)
@@ -3356,7 +3357,7 @@
     (pin "1" (uuid b59f1ca8-de6c-4502-b4dd-5f151ddfb065))
     (pin "2" (uuid e2cd17f8-2d8a-4b77-9bab-a4951038a7a5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX13") (unit 1)
         )
@@ -3373,7 +3374,7 @@
     (property "Value" "10k" (at 76.2 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 74.93 58.42 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 74.93 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 58.42 0)
@@ -3382,7 +3383,7 @@
     (pin "1" (uuid 648c0ea8-9642-4721-82dc-2bddebca3415))
     (pin "2" (uuid cdafb4fc-0d2e-4722-aca8-dac361d7b932))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R4") (unit 1)
         )
@@ -3399,7 +3400,7 @@
     (property "Value" "SOD-123" (at 207.01 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 48.26 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 205.74 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 48.26 90)
@@ -3414,7 +3415,7 @@
     (pin "1" (uuid f8555cda-b8f6-4ff7-ab4b-86ce6f67ed07))
     (pin "2" (uuid 1767f92f-532f-492f-a76f-61482796cc77))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D2") (unit 1)
         )
@@ -3431,7 +3432,7 @@
     (property "Value" "SOD-123" (at 193.04 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 67.31 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 191.77 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 67.31 90)
@@ -3446,7 +3447,7 @@
     (pin "1" (uuid b65deb0b-980c-4de1-8f15-46acdb44fa96))
     (pin "2" (uuid 35cda639-ad74-4e3a-8617-1c9631181816))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D3") (unit 1)
         )
@@ -3463,7 +3464,7 @@
     (property "Value" "SOD-123" (at 220.98 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 86.36 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 219.71 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 86.36 90)
@@ -3478,7 +3479,7 @@
     (pin "1" (uuid b73a9a02-11e0-4e4a-8cdf-01910b94c2c7))
     (pin "2" (uuid 4a658d3b-373e-444e-b332-16158471b8db))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D13") (unit 1)
         )
@@ -3495,7 +3496,7 @@
     (property "Value" "22" (at 74.93 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 71.12 90.17 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 71.12 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 90.17 0)
@@ -3504,7 +3505,7 @@
     (pin "1" (uuid fe51c4a3-aec0-48c5-a7b5-655c70dee3b0))
     (pin "2" (uuid efd063b5-353c-4834-b0ab-d93faa855a31))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R2") (unit 1)
         )
@@ -3521,7 +3522,7 @@
     (property "Value" "SOD-123" (at 248.92 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 247.65 67.31 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 247.65 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 67.31 90)
@@ -3536,7 +3537,7 @@
     (pin "1" (uuid a330908e-d6ed-4aa2-9278-314158b5e6c4))
     (pin "2" (uuid f5ebf17f-3566-4c48-b0da-807f80c8a35b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D10") (unit 1)
         )
@@ -3553,7 +3554,7 @@
     (property "Value" "10k" (at 115.57 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 114.3 120.65 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 120.65 0)
@@ -3562,7 +3563,7 @@
     (pin "1" (uuid 4b27aa1a-2b2f-40cd-81df-aa5cb32f9997))
     (pin "2" (uuid 0dc5d434-8bf0-4674-91a8-e3f1c82e6bce))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R1") (unit 1)
         )
@@ -3573,13 +3574,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 220.98 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc9e6672-8bbe-4cdc-b9d4-b933bbfaeb1c)
-    (property "Reference" "MX6" (at 221.8632 54.61 0)
+    (property "Reference" "MX8" (at 221.8632 54.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 221.8632 57.15 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 205.105 61.595 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 205.105 61.595 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.105 61.595 0)
@@ -3588,9 +3589,9 @@
     (pin "1" (uuid 69113744-887d-4ee5-8828-75b1c4f115b6))
     (pin "2" (uuid d3560dba-42eb-491f-9b01-f4158ffe4116))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX6") (unit 1)
+          (reference "MX8") (unit 1)
         )
       )
     )
@@ -3599,13 +3600,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 234.95 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df8a08be-07b8-4bf2-a7be-1f3e93b49762)
-    (property "Reference" "MX7" (at 235.8332 35.56 0)
+    (property "Reference" "MX4" (at 235.8332 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 235.8332 38.1 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 219.075 42.545 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 219.075 42.545 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 219.075 42.545 0)
@@ -3614,9 +3615,9 @@
     (pin "1" (uuid c31a05db-c97a-405d-bb5c-bc23ac54abb3))
     (pin "2" (uuid 026c6163-1f9d-4958-b8f7-962397e471eb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
-          (reference "MX7") (unit 1)
+          (reference "MX4") (unit 1)
         )
       )
     )
@@ -3631,7 +3632,7 @@
     (property "Value" "SOD-123" (at 248.92 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 247.65 86.36 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 247.65 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 86.36 90)
@@ -3646,7 +3647,7 @@
     (pin "1" (uuid 047b7485-daf1-48d8-97f3-ce93000b2901))
     (pin "2" (uuid 03f8f30e-10ff-4a4a-9338-c65abeccc1c0))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D15") (unit 1)
         )
@@ -3663,7 +3664,7 @@
     (property "Value" "22" (at 67.31 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 71.12 92.71 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 71.12 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 92.71 0)
@@ -3672,7 +3673,7 @@
     (pin "1" (uuid 300022b7-73a4-47c4-b063-31c7b9c464c1))
     (pin "2" (uuid 0afcd47e-8f1a-4806-99d7-0a2ba2df552f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R3") (unit 1)
         )
@@ -3689,7 +3690,7 @@
     (property "Value" "SOD-123" (at 234.95 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 233.68 48.26 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 233.68 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 48.26 90)
@@ -3704,7 +3705,7 @@
     (pin "1" (uuid ca6a4c93-e006-42d3-9cac-5b8f28e70e6b))
     (pin "2" (uuid f46cd651-8989-458f-adbe-157129df7b5e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D7") (unit 1)
         )
@@ -3721,7 +3722,7 @@
     (property "Value" "0.1uF" (at 24.13 52.7113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 21.59 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 21.59 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 21.59 50.8 0)
@@ -3730,7 +3731,7 @@
     (pin "1" (uuid 40000199-fc24-4836-92b4-66329ef7c883))
     (pin "2" (uuid 20efd5fa-786a-4eb2-9974-72ede506dae9))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C4") (unit 1)
         )
@@ -3747,7 +3748,7 @@
     (property "Value" "MX-NoLED" (at 207.8932 76.2 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 191.135 80.645 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 191.135 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.135 80.645 0)
@@ -3756,7 +3757,7 @@
     (pin "1" (uuid 5c68cdc4-ef3e-4ab8-ae60-1ab58839aed5))
     (pin "2" (uuid ea0ed873-911a-46af-b297-9236a86aed1e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX12") (unit 1)
         )
@@ -3773,7 +3774,7 @@
     (property "Value" "MX-NoLED" (at 249.8032 76.2 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 233.045 80.645 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 233.045 80.645 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 233.045 80.645 0)
@@ -3782,7 +3783,7 @@
     (pin "1" (uuid 4a566b5d-6d8e-40ac-a431-28d0f6cf619a))
     (pin "2" (uuid e016427c-30f0-45c6-bbf3-17d5aad0fefa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX15") (unit 1)
         )
@@ -3799,7 +3800,7 @@
     (property "Value" "SOD-123" (at 248.92 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 247.65 48.26 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 247.65 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 48.26 90)
@@ -3814,7 +3815,7 @@
     (pin "1" (uuid 2a531ece-3eaa-4bf6-92dd-389d85a96c61))
     (pin "2" (uuid 0d9e5631-eb1b-40d2-8cdf-66c7655a60c8))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D9") (unit 1)
         )
@@ -3831,7 +3832,7 @@
     (property "Value" "SW_Push" (at 68.58 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 59.69 0)
+    (property "Footprint" "random-keyboard-parts:SKQG-1155865" (at 68.58 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 59.69 0)
@@ -3840,7 +3841,7 @@
     (pin "1" (uuid 88e482a6-15fa-4675-b6e7-06bf5c144f7c))
     (pin "2" (uuid 751d1c3e-c0ee-44dc-8ea2-4161fb7f65c2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "SW1") (unit 1)
         )
@@ -3857,7 +3858,7 @@
     (property "Value" "22pF" (at 55.88 76.2 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 50.8 74.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 50.8 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 74.93 0)
@@ -3866,7 +3867,7 @@
     (pin "1" (uuid 7388fbbc-233f-4c20-b8a9-8dc7639249bf))
     (pin "2" (uuid b795ac08-0fa5-46dc-9e1d-d77604179abd))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C6") (unit 1)
         )
@@ -3883,7 +3884,7 @@
     (property "Value" "MX-NoLED" (at 221.8632 95.25 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 205.105 99.695 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 205.105 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.105 99.695 0)
@@ -3892,7 +3893,7 @@
     (pin "1" (uuid b503d7cb-3870-4561-8b91-2e76e2e13c91))
     (pin "2" (uuid 1ca10921-896e-4308-9278-28e348ab7f83))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX18") (unit 1)
         )
@@ -3917,7 +3918,7 @@
     )
     (pin "1" (uuid af705860-3466-41e6-b550-c0489e8827e5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR011") (unit 1)
         )
@@ -3934,7 +3935,7 @@
     (property "Value" "SOD-123" (at 248.92 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 247.65 124.46 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 247.65 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 124.46 90)
@@ -3949,7 +3950,7 @@
     (pin "1" (uuid f03a190c-222a-4f95-9f56-0f473d8683d6))
     (pin "2" (uuid f4c23943-bb01-4788-a204-5b0f9cceb85f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D25") (unit 1)
         )
@@ -3974,7 +3975,7 @@
     )
     (pin "1" (uuid 858374c2-651a-4609-a27f-f08fc391a525))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR05") (unit 1)
         )
@@ -3991,7 +3992,7 @@
     (property "Value" "MX-NoLED" (at 221.8632 114.3 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 205.105 118.745 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 205.105 118.745 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.105 118.745 0)
@@ -4000,7 +4001,7 @@
     (pin "1" (uuid 267612b7-b4af-4f78-b900-ac2e2cf46ab8))
     (pin "2" (uuid 39c71387-c8c5-437c-bc58-4c8c0e3e7fb5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX23") (unit 1)
         )
@@ -4017,7 +4018,7 @@
     (property "Value" "SOD-123" (at 193.04 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 124.46 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 191.77 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 124.46 90)
@@ -4032,7 +4033,7 @@
     (pin "1" (uuid d6d419d5-919a-4c62-988e-604bcd351afb))
     (pin "2" (uuid 1188456f-e84f-4ebc-af4e-688e740a3401))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D21") (unit 1)
         )
@@ -4049,7 +4050,7 @@
     (property "Value" "MX-NoLED" (at 207.8932 114.3 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 191.135 118.745 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED" (at 191.135 118.745 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.135 118.745 0)
@@ -4058,7 +4059,7 @@
     (pin "1" (uuid 61ec415c-2713-4e79-94ef-b8fa113c811e))
     (pin "2" (uuid 5ef90d16-dc1f-4ba9-91f4-d3ee3c246eec))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX22") (unit 1)
         )
