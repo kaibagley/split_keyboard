@@ -238,6 +238,100 @@
         )
       )
     )
+    (symbol "Connector_Audio:AudioJack4" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "AudioJack4" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Audio Jack, 4 Poles (TRRS)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Jack*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "AudioJack4_0_1"
+        (rectangle (start -6.35 -5.08) (end -7.62 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 -5.08)
+            (xy 0.635 -5.715)
+            (xy 1.27 -5.08)
+            (xy 2.54 -5.08)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 -5.08)
+            (xy -5.08 -5.715)
+            (xy -4.445 -5.08)
+            (xy -4.445 2.54)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 -5.08)
+            (xy -1.27 -5.715)
+            (xy -0.635 -5.08)
+            (xy -0.635 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy -2.54 0)
+            (xy -2.54 -5.08)
+            (xy -3.175 -5.715)
+            (xy -3.81 -5.08)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 2.54 3.81) (end -6.35 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "AudioJack4_1_1"
+        (pin passive line (at 5.08 -2.54 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "R1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "R2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "S" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "T" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1022,7 +1116,7 @@
   (junction (at 219.71 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 1542a681-5631-4523-b4f5-5b0f0aec9c73)
   )
-  (junction (at 30.48 48.26) (diameter 0) (color 0 0 0 0)
+  (junction (at 26.67 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 1a303738-7c49-48bc-948e-8ab2516a0f83)
   )
   (junction (at 191.77 50.8) (diameter 0) (color 0 0 0 0)
@@ -1043,7 +1137,7 @@
   (junction (at 238.76 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 3ab94542-72e2-42de-a223-e38fb632900e)
   )
-  (junction (at 39.37 53.34) (diameter 0) (color 0 0 0 0)
+  (junction (at 35.56 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 3acec73a-e99b-4b21-8f17-62ac9c009e1d)
   )
   (junction (at 46.99 114.3) (diameter 0) (color 0 0 0 0)
@@ -1058,13 +1152,13 @@
   (junction (at 44.45 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 5bbdd234-004c-4d88-b044-8bf90451d65c)
   )
-  (junction (at 39.37 48.26) (diameter 0) (color 0 0 0 0)
+  (junction (at 35.56 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 5e81ee7d-17e9-40ad-8cf6-a02cc98b4e33)
   )
   (junction (at 219.71 127) (diameter 0) (color 0 0 0 0)
     (uuid 645547fa-ab0c-42ff-b300-7d772b8e69c7)
   )
-  (junction (at 30.48 53.34) (diameter 0) (color 0 0 0 0)
+  (junction (at 26.67 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 6502d999-5088-40c3-9553-c35863d9728a)
   )
   (junction (at 210.82 97.79) (diameter 0) (color 0 0 0 0)
@@ -1187,7 +1281,7 @@
     (stroke (width 0) (type default))
     (uuid 067eff96-382c-4b25-ae95-bd31dc9f9606)
   )
-  (wire (pts (xy 39.37 48.26) (xy 48.26 48.26))
+  (wire (pts (xy 35.56 22.86) (xy 44.45 22.86))
     (stroke (width 0) (type default))
     (uuid 0a17be1a-e2b9-4e9a-af23-bd54188784f1)
   )
@@ -1203,7 +1297,7 @@
     (stroke (width 0) (type default))
     (uuid 0e5a9f36-35e5-418b-a2c5-9139ab81dfab)
   )
-  (wire (pts (xy 39.37 45.72) (xy 39.37 48.26))
+  (wire (pts (xy 35.56 20.32) (xy 35.56 22.86))
     (stroke (width 0) (type default))
     (uuid 12bb031b-12ac-4c23-baf8-794c17365364)
   )
@@ -1211,7 +1305,7 @@
     (stroke (width 0) (type default))
     (uuid 158b6708-5d32-4670-898f-5f7d76a845d8)
   )
-  (wire (pts (xy 21.59 48.26) (xy 30.48 48.26))
+  (wire (pts (xy 17.78 22.86) (xy 26.67 22.86))
     (stroke (width 0) (type default))
     (uuid 1c5ec013-6113-4e22-b7ae-c68fa602f0fe)
   )
@@ -1239,11 +1333,11 @@
     (stroke (width 0) (type default))
     (uuid 2975499a-4f44-4018-97e4-3fa8cd16ff8b)
   )
-  (wire (pts (xy 39.37 53.34) (xy 48.26 53.34))
+  (wire (pts (xy 35.56 27.94) (xy 44.45 27.94))
     (stroke (width 0) (type default))
     (uuid 2a85880e-e78d-4f8d-9860-da872b997e3b)
   )
-  (wire (pts (xy 30.48 53.34) (xy 39.37 53.34))
+  (wire (pts (xy 26.67 27.94) (xy 35.56 27.94))
     (stroke (width 0) (type default))
     (uuid 2b1fd9ee-5cf6-4e92-8566-c9ef662e62e2)
   )
@@ -1283,7 +1377,11 @@
     (stroke (width 0) (type default))
     (uuid 3f647b96-c57e-4e30-9149-6d07cdd1df27)
   )
-  (wire (pts (xy 21.59 53.34) (xy 30.48 53.34))
+  (wire (pts (xy 74.93 25.4) (xy 69.85 25.4))
+    (stroke (width 0) (type default))
+    (uuid 40d8eb04-f915-4d5f-b132-83a0f934d355)
+  )
+  (wire (pts (xy 17.78 27.94) (xy 26.67 27.94))
     (stroke (width 0) (type default))
     (uuid 43d12ba4-cfe1-465d-a685-70b8bcd66370)
   )
@@ -1315,7 +1413,7 @@
     (stroke (width 0) (type default))
     (uuid 53ad2577-3de9-4c1a-9863-1610485aff1d)
   )
-  (wire (pts (xy 39.37 53.34) (xy 39.37 55.88))
+  (wire (pts (xy 35.56 27.94) (xy 35.56 30.48))
     (stroke (width 0) (type default))
     (uuid 53b5fc07-d864-4c87-b211-9fd509296973)
   )
@@ -1363,6 +1461,10 @@
     (stroke (width 0) (type default))
     (uuid 66f20e3d-c64c-4d4a-84d6-e4ff961be24d)
   )
+  (wire (pts (xy 80.01 25.4) (xy 82.55 25.4))
+    (stroke (width 0) (type default))
+    (uuid 698c9ffc-082a-4a59-8f10-14e46a2dbf65)
+  )
   (wire (pts (xy 219.71 107.95) (xy 233.68 107.95))
     (stroke (width 0) (type default))
     (uuid 6b9bd607-d7bb-4424-a125-4c52f6ea2e7f)
@@ -1374,6 +1476,10 @@
   (wire (pts (xy 53.34 69.85) (xy 59.69 69.85))
     (stroke (width 0) (type default))
     (uuid 712e310a-39a2-40f6-a86f-454fbf0c56fa)
+  )
+  (wire (pts (xy 69.85 30.48) (xy 90.17 30.48))
+    (stroke (width 0) (type default))
+    (uuid 721e9deb-cc70-4d6d-b1e8-c5de616777ab)
   )
   (wire (pts (xy 191.77 107.95) (xy 205.74 107.95))
     (stroke (width 0) (type default))
@@ -1467,7 +1573,7 @@
     (stroke (width 0) (type default))
     (uuid b4845f82-386d-44a6-9dc8-9ad96c2e17f4)
   )
-  (wire (pts (xy 30.48 48.26) (xy 39.37 48.26))
+  (wire (pts (xy 26.67 22.86) (xy 35.56 22.86))
     (stroke (width 0) (type default))
     (uuid b8b55625-bd3e-4dd5-979c-3512c08d8b58)
   )
@@ -1523,9 +1629,17 @@
     (stroke (width 0) (type default))
     (uuid d4e80a94-bc89-4901-9982-75100d925ab0)
   )
+  (wire (pts (xy 69.85 22.86) (xy 90.17 22.86))
+    (stroke (width 0) (type default))
+    (uuid d6a39e20-e84b-4554-b1c4-46557eac003b)
+  )
   (wire (pts (xy 59.69 74.93) (xy 77.47 74.93))
     (stroke (width 0) (type default))
     (uuid dac3d4a9-2c3f-4d94-b888-0ef779783823)
+  )
+  (wire (pts (xy 74.93 27.94) (xy 82.55 27.94))
+    (stroke (width 0) (type default))
+    (uuid e17cf8ab-d5a3-4629-a8dd-430add1e9820)
   )
   (wire (pts (xy 210.82 40.64) (xy 210.82 59.69))
     (stroke (width 0) (type default))
@@ -1602,6 +1716,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "RX" (shape input) (at 107.95 100.33 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1891fe26-6c9c-44f6-ba5f-2218e5a6d93a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.3353 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "RX" (shape input) (at 82.55 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1c0c9ca6-eb85-430d-86bd-aaa5e8876b80)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 87.9353 25.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "D+" (shape input) (at 66.04 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 232ea883-9385-4bf5-8b40-93f3bd34a8e7)
@@ -1641,6 +1769,20 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 95a0a26c-3d58-45c6-a9ba-fa151c1b0a9d)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.2482 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "TX" (shape input) (at 82.55 27.94 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b041910c-def9-4d82-a066-ef0a4e131df3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 87.6329 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "TX" (shape input) (at 107.95 102.87 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b10223bb-a146-42a2-af85-3cfafbd2c89b)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.0329 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1705,7 +1847,7 @@
     (pin "1" (uuid 179ff420-2463-4646-b640-cbae3b549138))
     (pin "2" (uuid f3179856-c68d-4045-bb29-05b63b0c65d9))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX4") (unit 1)
         )
@@ -1731,7 +1873,7 @@
     (pin "1" (uuid 0644771d-ce05-4060-b4c8-8942541bf250))
     (pin "2" (uuid 412c7c63-8021-4748-82cd-3ed36577b8b1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX3") (unit 1)
         )
@@ -1763,7 +1905,7 @@
     (pin "1" (uuid ec6a0bf6-9189-427f-be89-a10fe9ab5cbe))
     (pin "2" (uuid c98fa4a8-71dd-4cf9-86a3-69a125a2860e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D8") (unit 1)
         )
@@ -1771,25 +1913,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 39.37 50.8 180) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 35.56 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c11b5f0-224c-4877-868f-2c9c6039d141)
-    (property "Reference" "C3" (at 41.91 50.1586 0)
+    (property "Reference" "C3" (at 38.1 24.7586 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1uF" (at 41.91 52.6986 0)
+    (property "Value" "0.1uF" (at 38.1 27.2986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.37 50.8 0)
+    (property "Footprint" "" (at 35.56 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 50.8 0)
+    (property "Datasheet" "~" (at 35.56 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5e21a429-cfa8-4a42-8b2a-903d0cc42b31))
     (pin "2" (uuid e3aecbcc-496d-47e8-a22a-5c8d92d3c101))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C3") (unit 1)
         )
@@ -1821,7 +1963,7 @@
     (pin "1" (uuid 4d5e0247-fdbb-4545-a44b-0891ecb7f35e))
     (pin "2" (uuid dd1d2a16-978e-4b92-bdf1-b4f6ee48079c))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D22") (unit 1)
         )
@@ -1853,7 +1995,7 @@
     (pin "1" (uuid f4a3ddc8-0456-4b31-906e-69318c507b51))
     (pin "2" (uuid 16a2089d-515d-4d32-a6dd-1f673e50f544))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D4") (unit 1)
         )
@@ -1885,7 +2027,7 @@
     (pin "1" (uuid aa1888a6-2146-4a6d-aeb5-87a5e3867cf2))
     (pin "2" (uuid bcd4bac9-4145-4f24-a4f7-a75707f29a1a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D12") (unit 1)
         )
@@ -1910,7 +2052,7 @@
     )
     (pin "1" (uuid 51266147-4e66-4faf-87c2-70830b3c5663))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR01") (unit 1)
         )
@@ -1942,7 +2084,7 @@
     (pin "1" (uuid 1ed1d59f-1729-4733-ba4f-3fe504ea13e0))
     (pin "2" (uuid 399bd98b-13de-443a-80c1-bafc4d1c5fa2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D23") (unit 1)
         )
@@ -1968,7 +2110,7 @@
     (pin "1" (uuid b524b3f1-e8aa-4050-bb12-25f42caace51))
     (pin "2" (uuid ca5c768d-a52d-41eb-9847-43f4f01624b3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX10") (unit 1)
         )
@@ -1994,7 +2136,7 @@
     (pin "1" (uuid e7b89c45-ebdb-4b12-8f5f-36a3f7f1bcd9))
     (pin "2" (uuid 6408984c-783c-4e41-b074-f1379367b756))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX11") (unit 1)
         )
@@ -2020,7 +2162,7 @@
     (pin "1" (uuid eff5e20a-2b68-4a6c-b627-bb05c1493174))
     (pin "2" (uuid 4fab9bca-f594-421c-8827-48f39bb74536))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX16") (unit 1)
         )
@@ -2061,7 +2203,7 @@
     (pin "B9" (uuid 1f1d714a-74f0-46ff-8d99-ce03f151de2d))
     (pin "S1" (uuid 376eb3b7-c3e7-4b73-b111-8d10a7baf9fb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "J1") (unit 1)
         )
@@ -2086,7 +2228,7 @@
     )
     (pin "1" (uuid 404b9382-ab20-4b1f-944f-5cd27ab6216b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR03") (unit 1)
         )
@@ -2111,7 +2253,7 @@
     )
     (pin "1" (uuid c84c314b-2c18-4ada-ac3d-c16955e5af57))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR07") (unit 1)
         )
@@ -2139,7 +2281,7 @@
     (pin "3" (uuid b708f36e-800f-4fcc-bbf0-f7d934c80c65))
     (pin "4" (uuid 9d123214-69db-45bf-b99d-02f10f49aedb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "Y1") (unit 1)
         )
@@ -2171,7 +2313,7 @@
     (pin "1" (uuid d743ed3d-b6c0-4163-84a5-ee2bee384e11))
     (pin "2" (uuid c579fd09-e203-47b2-a97a-a35ecb3fdcc7))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D1") (unit 1)
         )
@@ -2203,7 +2345,7 @@
     (pin "1" (uuid fe93da4b-96eb-4ca0-8a05-cd5e66e3a734))
     (pin "2" (uuid fd6af83b-f93d-4c58-9e86-e8769c9635d2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D24") (unit 1)
         )
@@ -2229,7 +2371,7 @@
     (pin "1" (uuid d1f6feae-628c-435b-b23f-10e75592492c))
     (pin "2" (uuid e1c76ad3-84d2-4b13-8f5d-5fb9c8c12f56))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "F1") (unit 1)
         )
@@ -2255,7 +2397,7 @@
     (pin "1" (uuid a2b7f890-86d2-43b0-9905-2c13b35ffa79))
     (pin "2" (uuid d87c4972-0074-48b2-beac-be8ad3250ec8))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX2") (unit 1)
         )
@@ -2281,7 +2423,7 @@
     (pin "1" (uuid c7b8f204-cde5-4291-a14a-e513e8a3c92d))
     (pin "2" (uuid f1c9a20d-94a8-4b42-9d79-b8630f5a4cff))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C7") (unit 1)
         )
@@ -2313,7 +2455,7 @@
     (pin "1" (uuid 03f43c1d-11f2-4e05-8534-1411856457a7))
     (pin "2" (uuid 16f77575-c60d-41cb-b1b2-4962ef963ad6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D19") (unit 1)
         )
@@ -2345,7 +2487,7 @@
     (pin "1" (uuid 71d3b33f-78af-4b57-9889-706221dbfafb))
     (pin "2" (uuid 144cd3fe-31e4-467a-bae3-9139ad09e9e5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D14") (unit 1)
         )
@@ -2371,7 +2513,7 @@
     (pin "1" (uuid 8775b3f5-4ce3-439f-b4cd-23fa9850c95b))
     (pin "2" (uuid 9ef8d875-95c2-48ae-80e0-dd4909585a6f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX20") (unit 1)
         )
@@ -2403,7 +2545,7 @@
     (pin "1" (uuid 79eb98a4-f6be-432a-85e1-09a7ee737b0b))
     (pin "2" (uuid c568b503-44b7-47b8-9e65-7350f43e4f94))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D16") (unit 1)
         )
@@ -2429,7 +2571,7 @@
     (pin "1" (uuid 441e25fe-7589-446f-8ca6-58bc9a0f14e8))
     (pin "2" (uuid c91f06cf-2725-487f-9583-9f2ef95826cf))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX14") (unit 1)
         )
@@ -2461,7 +2603,7 @@
     (pin "1" (uuid 96a63f9e-9569-46bf-85e7-55808dc0d894))
     (pin "2" (uuid 116b4d70-4919-4267-844d-52b3cd1ea3d4))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D5") (unit 1)
         )
@@ -2529,7 +2671,7 @@
     (pin "8" (uuid a14d9160-b597-4a46-9989-c0dcbdf016a2))
     (pin "9" (uuid 5403b4b3-fe57-4544-bf6e-ea7098a48193))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "U2") (unit 1)
         )
@@ -2561,7 +2703,7 @@
     (pin "1" (uuid f92d73b4-d6b2-4319-a457-04a56cabbe05))
     (pin "2" (uuid e48170ff-faac-49fe-a7d5-c295de0329e1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D6") (unit 1)
         )
@@ -2587,7 +2729,7 @@
     (pin "1" (uuid 7baff35d-83f5-4c59-81af-59a93221d9d6))
     (pin "2" (uuid 3e6569ca-f313-4732-abb0-30fe4dc7424b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R6") (unit 1)
         )
@@ -2595,25 +2737,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 48.26 50.8 180) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 44.45 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e109002-c3b3-4fbb-af3d-c4d635f3ff0d)
-    (property "Reference" "C5" (at 50.8 50.1586 0)
+    (property "Reference" "C5" (at 46.99 24.7586 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10uF" (at 50.8 52.6986 0)
+    (property "Value" "10uF" (at 46.99 27.2986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 48.26 50.8 0)
+    (property "Footprint" "" (at 44.45 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 48.26 50.8 0)
+    (property "Datasheet" "~" (at 44.45 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6906f6ba-7dc4-4c64-8e1c-105d8c23e42e))
     (pin "2" (uuid 6bf056bb-1e7e-4a10-99d0-a9808909ff85))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C5") (unit 1)
         )
@@ -2645,7 +2787,7 @@
     (pin "1" (uuid cb0c16dc-148b-4c29-ac22-11f14d4da6e8))
     (pin "2" (uuid 45a333ab-2858-4772-9a90-6f1ebcc3a748))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D18") (unit 1)
         )
@@ -2671,7 +2813,7 @@
     (pin "1" (uuid fe2fbee4-bbd2-4147-ba53-4e13d0d5a46f))
     (pin "2" (uuid 4aa79b88-a9bc-46d7-856d-e2e0e3abd7ab))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX19") (unit 1)
         )
@@ -2697,7 +2839,7 @@
     (pin "1" (uuid 4e353732-3423-4006-bf3a-1688b8ebb075))
     (pin "2" (uuid 477b794a-af66-4ffa-a74f-5a48b98ad37a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX1") (unit 1)
         )
@@ -2722,7 +2864,7 @@
     )
     (pin "1" (uuid e741ff24-0960-4d4a-8bd9-fb8b60013faa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR09") (unit 1)
         )
@@ -2748,7 +2890,7 @@
     (pin "1" (uuid ddcb64ee-f0b9-4151-a329-c3781533f164))
     (pin "2" (uuid 77906578-d8cb-49a6-a4d6-182eccc3c01c))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX25") (unit 1)
         )
@@ -2780,7 +2922,7 @@
     (pin "1" (uuid 16a245e6-04e5-49a7-813f-262415514e57))
     (pin "2" (uuid 454712e0-3cd7-4340-9f63-516328f745c3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D17") (unit 1)
         )
@@ -2806,7 +2948,7 @@
     (pin "1" (uuid d42ec200-b98e-49ab-babc-8744bde52db2))
     (pin "2" (uuid 751cab09-a506-4cea-86df-ffce37131095))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C1") (unit 1)
         )
@@ -2831,7 +2973,7 @@
     )
     (pin "1" (uuid e09ad91c-f4e0-4654-8637-5115f7945204))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR08") (unit 1)
         )
@@ -2863,7 +3005,7 @@
     (pin "1" (uuid 53cbdec2-ed3f-477a-9867-c13c354756f6))
     (pin "2" (uuid 1fc8c9b1-e09a-4bd9-bf44-b3fffafc82fa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D20") (unit 1)
         )
@@ -2871,25 +3013,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 30.48 50.8 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 26.67 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a8b3bcb-72a3-4660-86ce-a8ff044ad811)
-    (property "Reference" "C2" (at 33.02 50.1713 0)
+    (property "Reference" "C2" (at 29.21 24.7713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 33.02 52.7113 0)
+    (property "Value" "0.1uF" (at 29.21 27.3113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 30.48 50.8 0)
+    (property "Footprint" "" (at 26.67 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 30.48 50.8 0)
+    (property "Datasheet" "~" (at 26.67 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9042da7d-6b9f-4069-bd16-dd3523904d73))
     (pin "2" (uuid 7eb4fc4e-3bd4-431f-83c6-f9507e3c1a26))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C2") (unit 1)
         )
@@ -2915,7 +3057,7 @@
     (pin "1" (uuid f3ba620c-72fe-4905-a99b-f1adbc80d3e5))
     (pin "2" (uuid 77e8eda7-7699-4616-a9fc-8a38b43a8b09))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX21") (unit 1)
         )
@@ -2940,7 +3082,7 @@
     )
     (pin "1" (uuid 5e301fce-040e-48b1-9c78-fc749a0e335a))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR012") (unit 1)
         )
@@ -2966,7 +3108,7 @@
     (pin "1" (uuid ee394aae-0f3f-40d2-a7a3-a7e677ccbc81))
     (pin "2" (uuid dd36b94a-ed83-45e1-b351-918c8f8926ab))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX9") (unit 1)
         )
@@ -2991,7 +3133,7 @@
     )
     (pin "1" (uuid 7a0e8327-f979-442e-bfa1-babf0a7d72b1))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR013") (unit 1)
         )
@@ -3017,7 +3159,7 @@
     (pin "1" (uuid 1d500d15-4cb2-481e-b50f-0df410adabf5))
     (pin "2" (uuid 75302c61-e2c1-4e24-8e57-789985257dd7))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R5") (unit 1)
         )
@@ -3049,9 +3191,34 @@
     (pin "1" (uuid 04eb15b2-1037-4388-8242-dc55cade54eb))
     (pin "2" (uuid e6a692ef-bd26-41fc-bc6f-8759e2388013))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 90.17 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8cfe2586-7812-4f42-8773-89f62c716c5c)
+    (property "Reference" "#PWR016" (at 90.17 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 92.71 30.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea5abdd7-f6c1-4ae6-8d19-8b166d9ac500))
+    (instances
+      (project "kai_split_left"
+        (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3075,7 +3242,7 @@
     (pin "1" (uuid d3cd1f91-5cc2-4fd5-a626-72de3bab56cd))
     (pin "2" (uuid 607903c3-a48d-41c9-84e0-e3e47b160dc6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX17") (unit 1)
         )
@@ -3101,7 +3268,7 @@
     (pin "1" (uuid 6df4a3ac-e9c0-4c94-96a2-7d43a6afdbe3))
     (pin "2" (uuid 9b3aa25a-3842-4665-8e2c-2caf556a8ea3))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX24") (unit 1)
         )
@@ -3126,7 +3293,7 @@
     )
     (pin "1" (uuid 8f094a3b-2b45-40a5-9324-381ffc2b2727))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR014") (unit 1)
         )
@@ -3152,9 +3319,35 @@
     (pin "1" (uuid e77a3531-75a3-44e8-b2de-ce55017aff59))
     (pin "2" (uuid 306a07b9-546a-4e12-a8b4-2244b357bf65))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 77.47 25.4 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9b6654e0-ca23-41ba-b887-4267cda9a428)
+    (property "Reference" "R9" (at 77.47 19.05 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 77.47 21.59 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 77.47 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 77.47 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8920b19d-5ce4-4d2a-be18-8c9a4f9e56c4))
+    (pin "2" (uuid 8b943036-f43e-47e1-9496-ab0b81f2e68a))
+    (instances
+      (project "kai_split_left"
+        (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3178,7 +3371,7 @@
     (pin "1" (uuid f46db06e-9772-4494-9dd5-e211e230941f))
     (pin "2" (uuid a5c5d01b-eb06-4c0a-b167-8c2a76b25995))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R7") (unit 1)
         )
@@ -3204,7 +3397,7 @@
     (pin "1" (uuid a8b4a6a2-7cd9-47a5-b8ad-6b7576bf0ed4))
     (pin "2" (uuid bdd7aaaf-8c83-4cec-bcd4-2934582a5fb0))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R8") (unit 1)
         )
@@ -3229,7 +3422,7 @@
     )
     (pin "1" (uuid 92edd2d6-5a3b-474f-bc3e-97ae39751f63))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR04") (unit 1)
         )
@@ -3237,26 +3430,52 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 39.37 45.72 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 35.56 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8723f03-72c5-4cf1-8b24-49ba0be53a9d)
-    (property "Reference" "#PWR06" (at 39.37 49.53 0)
+    (property "Reference" "#PWR06" (at 35.56 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 39.37 41.91 0)
+    (property "Value" "+5V" (at 35.56 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 45.72 0)
+    (property "Footprint" "" (at 35.56 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 45.72 0)
+    (property "Datasheet" "" (at 35.56 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5087c04d-3824-4901-a483-1f960f72f462))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 72.39 27.94 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ac93a6de-e0cb-46af-aa08-5d39213b1f6c)
+    (property "Reference" "R10" (at 72.39 31.75 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 72.39 34.29 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 72.39 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9d6b1730-a066-4d89-9fcd-30ac33dbb532))
+    (pin "2" (uuid c5fe5186-c06f-4dca-9cc4-d8c032239ec6))
+    (instances
+      (project "kai_split_left"
+        (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3279,7 +3498,7 @@
     )
     (pin "1" (uuid 53fefc25-542f-491e-ad59-3e04df512e01))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR02") (unit 1)
         )
@@ -3305,7 +3524,7 @@
     (pin "1" (uuid 13768d7a-d3f9-4f31-b23c-104c7f2dbf1b))
     (pin "2" (uuid 8d22963f-2ea8-4bb1-948e-2184208486c6))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX8") (unit 1)
         )
@@ -3330,7 +3549,7 @@
     )
     (pin "1" (uuid 51732db3-10c8-42f1-80d8-b34cc3af769b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR010") (unit 1)
         )
@@ -3356,7 +3575,7 @@
     (pin "1" (uuid b59f1ca8-de6c-4502-b4dd-5f151ddfb065))
     (pin "2" (uuid e2cd17f8-2d8a-4b77-9bab-a4951038a7a5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX13") (unit 1)
         )
@@ -3382,9 +3601,34 @@
     (pin "1" (uuid 648c0ea8-9642-4721-82dc-2bddebca3415))
     (pin "2" (uuid cdafb4fc-0d2e-4722-aca8-dac361d7b932))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 90.17 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7b2ffa6-ca0f-4073-82e1-19dd3559d67a)
+    (property "Reference" "#PWR015" (at 90.17 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 92.71 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e321d6d9-6405-48e4-9285-1d4d8316f11a))
+    (instances
+      (project "kai_split_left"
+        (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3414,7 +3658,7 @@
     (pin "1" (uuid f8555cda-b8f6-4ff7-ab4b-86ce6f67ed07))
     (pin "2" (uuid 1767f92f-532f-492f-a76f-61482796cc77))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D2") (unit 1)
         )
@@ -3446,7 +3690,7 @@
     (pin "1" (uuid b65deb0b-980c-4de1-8f15-46acdb44fa96))
     (pin "2" (uuid 35cda639-ad74-4e3a-8617-1c9631181816))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D3") (unit 1)
         )
@@ -3478,9 +3722,37 @@
     (pin "1" (uuid b73a9a02-11e0-4e4a-8cdf-01910b94c2c7))
     (pin "2" (uuid 4a658d3b-373e-444e-b332-16158471b8db))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Audio:AudioJack4") (at 64.77 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d1d133b4-d159-4e97-9f0f-7ee34d0e736f)
+    (property "Reference" "J2" (at 62.23 17.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack4" (at 62.23 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 64.77 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "R1" (uuid 0dadae9d-ded8-489b-a62c-ff8e290cad25))
+    (pin "R2" (uuid 3847469b-6d91-4cfc-b710-ef2214dad5ad))
+    (pin "S" (uuid 1b168647-2130-466a-998b-a52923bbf36c))
+    (pin "T" (uuid 36cc99fa-7b04-4fd4-b4ec-2b91ad962f3c))
+    (instances
+      (project "kai_split_left"
+        (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3504,7 +3776,7 @@
     (pin "1" (uuid fe51c4a3-aec0-48c5-a7b5-655c70dee3b0))
     (pin "2" (uuid efd063b5-353c-4834-b0ab-d93faa855a31))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R2") (unit 1)
         )
@@ -3536,7 +3808,7 @@
     (pin "1" (uuid a330908e-d6ed-4aa2-9278-314158b5e6c4))
     (pin "2" (uuid f5ebf17f-3566-4c48-b0da-807f80c8a35b))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D10") (unit 1)
         )
@@ -3562,7 +3834,7 @@
     (pin "1" (uuid 4b27aa1a-2b2f-40cd-81df-aa5cb32f9997))
     (pin "2" (uuid 0dc5d434-8bf0-4674-91a8-e3f1c82e6bce))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R1") (unit 1)
         )
@@ -3588,7 +3860,7 @@
     (pin "1" (uuid 69113744-887d-4ee5-8828-75b1c4f115b6))
     (pin "2" (uuid d3560dba-42eb-491f-9b01-f4158ffe4116))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX6") (unit 1)
         )
@@ -3614,7 +3886,7 @@
     (pin "1" (uuid c31a05db-c97a-405d-bb5c-bc23ac54abb3))
     (pin "2" (uuid 026c6163-1f9d-4958-b8f7-962397e471eb))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX7") (unit 1)
         )
@@ -3646,7 +3918,7 @@
     (pin "1" (uuid 047b7485-daf1-48d8-97f3-ce93000b2901))
     (pin "2" (uuid 03f8f30e-10ff-4a4a-9338-c65abeccc1c0))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D15") (unit 1)
         )
@@ -3672,7 +3944,7 @@
     (pin "1" (uuid 300022b7-73a4-47c4-b063-31c7b9c464c1))
     (pin "2" (uuid 0afcd47e-8f1a-4806-99d7-0a2ba2df552f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "R3") (unit 1)
         )
@@ -3704,7 +3976,7 @@
     (pin "1" (uuid ca6a4c93-e006-42d3-9cac-5b8f28e70e6b))
     (pin "2" (uuid f46cd651-8989-458f-adbe-157129df7b5e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D7") (unit 1)
         )
@@ -3712,25 +3984,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 21.59 50.8 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 17.78 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e563eac6-e811-4bee-89b4-5e326dc0a0a1)
-    (property "Reference" "C4" (at 24.13 50.1713 0)
+    (property "Reference" "C4" (at 20.32 24.7713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 24.13 52.7113 0)
+    (property "Value" "0.1uF" (at 20.32 27.3113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 21.59 50.8 0)
+    (property "Footprint" "" (at 17.78 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 21.59 50.8 0)
+    (property "Datasheet" "~" (at 17.78 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 40000199-fc24-4836-92b4-66329ef7c883))
     (pin "2" (uuid 20efd5fa-786a-4eb2-9974-72ede506dae9))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C4") (unit 1)
         )
@@ -3756,7 +4028,7 @@
     (pin "1" (uuid 5c68cdc4-ef3e-4ab8-ae60-1ab58839aed5))
     (pin "2" (uuid ea0ed873-911a-46af-b297-9236a86aed1e))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX12") (unit 1)
         )
@@ -3782,7 +4054,7 @@
     (pin "1" (uuid 4a566b5d-6d8e-40ac-a431-28d0f6cf619a))
     (pin "2" (uuid e016427c-30f0-45c6-bbf3-17d5aad0fefa))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX15") (unit 1)
         )
@@ -3814,7 +4086,7 @@
     (pin "1" (uuid 2a531ece-3eaa-4bf6-92dd-389d85a96c61))
     (pin "2" (uuid 0d9e5631-eb1b-40d2-8cdf-66c7655a60c8))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D9") (unit 1)
         )
@@ -3840,7 +4112,7 @@
     (pin "1" (uuid 88e482a6-15fa-4675-b6e7-06bf5c144f7c))
     (pin "2" (uuid 751d1c3e-c0ee-44dc-8ea2-4161fb7f65c2))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "SW1") (unit 1)
         )
@@ -3866,7 +4138,7 @@
     (pin "1" (uuid 7388fbbc-233f-4c20-b8a9-8dc7639249bf))
     (pin "2" (uuid b795ac08-0fa5-46dc-9e1d-d77604179abd))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "C6") (unit 1)
         )
@@ -3892,7 +4164,7 @@
     (pin "1" (uuid b503d7cb-3870-4561-8b91-2e76e2e13c91))
     (pin "2" (uuid 1ca10921-896e-4308-9278-28e348ab7f83))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX18") (unit 1)
         )
@@ -3917,7 +4189,7 @@
     )
     (pin "1" (uuid af705860-3466-41e6-b550-c0489e8827e5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR011") (unit 1)
         )
@@ -3949,7 +4221,7 @@
     (pin "1" (uuid f03a190c-222a-4f95-9f56-0f473d8683d6))
     (pin "2" (uuid f4c23943-bb01-4788-a204-5b0f9cceb85f))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D25") (unit 1)
         )
@@ -3957,24 +4229,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 39.37 55.88 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 35.56 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f75fd9c1-4bfd-4aec-93f8-2651c549393c)
-    (property "Reference" "#PWR05" (at 39.37 62.23 0)
+    (property "Reference" "#PWR05" (at 35.56 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 39.37 60.96 0)
+    (property "Value" "GND" (at 35.56 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 55.88 0)
+    (property "Footprint" "" (at 35.56 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 55.88 0)
+    (property "Datasheet" "" (at 35.56 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 858374c2-651a-4609-a27f-f08fc391a525))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "#PWR05") (unit 1)
         )
@@ -4000,7 +4272,7 @@
     (pin "1" (uuid 267612b7-b4af-4f78-b900-ac2e2cf46ab8))
     (pin "2" (uuid 39c71387-c8c5-437c-bc58-4c8c0e3e7fb5))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX23") (unit 1)
         )
@@ -4032,7 +4304,7 @@
     (pin "1" (uuid d6d419d5-919a-4c62-988e-604bcd351afb))
     (pin "2" (uuid 1188456f-e84f-4ebc-af4e-688e740a3401))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "D21") (unit 1)
         )
@@ -4058,7 +4330,7 @@
     (pin "1" (uuid 61ec415c-2713-4e79-94ef-b8fa113c811e))
     (pin "2" (uuid 5ef90d16-dc1f-4ba9-91f4-d3ee3c246eec))
     (instances
-      (project "kai_split"
+      (project "kai_split_left"
         (path "/41aeb534-8a24-4ab5-8ab1-e8c232b2e0bb"
           (reference "MX22") (unit 1)
         )
